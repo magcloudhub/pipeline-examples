@@ -33,7 +33,7 @@ node('node') {
 
        stage('Checkout'){
 
-          checkout scm
+git credentialsId: '9c5600a6-c0d3-4e81-a2b3-cca6d7257abb', url: 'https://github.com/pavants52/pipeline-examples.git'
        }
 
        stage('Test'){
